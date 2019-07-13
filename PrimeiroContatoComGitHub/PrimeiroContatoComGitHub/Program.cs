@@ -11,6 +11,7 @@ namespace PrimeiroContatoComGitHub
     {
         static void Main(string[] args)
         {
+            // Imprime no console
             Console.WriteLine("Hello Git!");
         }
     }
