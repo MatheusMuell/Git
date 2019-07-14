@@ -1,0 +1,18 @@
+﻿<Window x:Class="EncryptAndDescrypt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EncryptAndDescrypt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="txtInformacaoParaEsconder" HorizontalAlignment="Left" Height="45" Margin="25,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="740"/>
+        <TextBox Name="txtSenhaParaPodeEsconder" HorizontalAlignment="Left" Height="25" Margin="210,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="555"/>
+        <Label Content="Senha de criptografia" HorizontalAlignment="Left" Margin="25,80,0,0" VerticalAlignment="Top" Width="180"/>
+        <Button Click="Button_Click" Content="Criptografar" HorizontalAlignment="Left" Margin="25,125,0,0" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.133,-1.25"/>
+        <Button Click="Button_Click_1" Content="Descriptografar" HorizontalAlignment="Left" Margin="405,125,0,0" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.133,-1.25"/>
+        <TextBox Name="txtConteudoJaEscondido" HorizontalAlignment="Left" Height="203" Margin="25,177,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="740"/>
+
+    </Grid>
+</Window>
